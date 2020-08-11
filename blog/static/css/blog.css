@@ -1,0 +1,422 @@
+*{
+  font-family: Raleway;
+}
+::selection {
+  color: white;
+  background: #3e556b;
+}
+.helptext{
+  visibility: hidden;
+}
+/* .text_message{
+  min-width: 100%;
+  max-width: 100%;
+  font-family: Raleway;
+}
+
+.textinputclass{
+  float: left;
+  width: 270px;
+  font-size: 20px;
+  font-family: Raleway;
+  border-bottom: 2px solid black;
+}
+.textinputclass::after, .text_message::after{
+  content: "\a\a\a";
+}
+.textinputclass label{
+  display: none;
+}
+.textinputclass:focus, .text_message:focus{
+  background: none;
+  border:none;
+  outline: none;
+  border-bottom: 2px solid #333;
+  color: black;
+  padding: 10px 6px;
+  font-size: 25px;
+  margin-bottom: 40px;
+} */
+.submit_button{
+  /* margin: 0; */
+  padding: 0;
+  position: fixed;
+  background: none;
+  border:none;
+  outline: none;
+  font-family: Raleway;
+  color: black;
+  padding: 12px 40px;
+  background-color: #fff;
+  border: 1px solid black;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s linear;
+  cursor: pointer;
+  margin: 0px;
+}
+.submit_button button:hover{
+  background: black;
+  border-color: black;
+  color: white;
+}
+/* .submit_button button:hover{
+  background: black;
+  border-color: black;
+  color: white;
+} */
+.techfont{
+  font-family: 'Raleway';
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.postdate{
+  text-align: center;
+}
+
+.posttitle{
+  font-family: 'Raleway';
+  font-size: 3em;
+  text-align: center;
+}
+
+.postcontent{
+  font-family: 'Raleway';
+  font-size: 1.5em;
+}
+
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-comment{
+  position: absolute;
+  right: 0px;
+}
+
+.bigbrand{
+  font-size: 1.5em;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:90px;
+  font:16px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#444;
+  font-weight:400;
+}
+.socialmedia a{
+  margin: 0 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 24px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,.15),
+              -6px -6px 12px rgba(255,255,255,.1);
+  overflow: hidden;
+  font-size: 20px;
+  transition: .3s linear;
+  position: relative;
+}
+
+.socialmedia a:hover{
+  transform: scale(1.3);
+  border-radius: 50%;
+}
+
+.socialmedia a i::before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-size: 200% 200%;
+  background-position: 75% 75%;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background .5s linear;
+}
+
+.socialmedia a:hover i::before{
+  background-position: 0% 0%;
+}
+
+.fa-facebook-f::before{
+  background-image: linear-gradient(140deg,#3b5998 30%,#0a3d62 50%);
+}
+
+.fa-twitter::before{
+  background-image: linear-gradient(140deg,#1da1f2 30%,#0a3d62 50%);
+}
+
+.fa-instagram::before{
+  background-image: linear-gradient(140deg,#c32aa3 30%,#0a3d62 50%);
+}
+
+.fa-github::before{
+  background-image: linear-gradient(140deg,#3b3434 30%,#0a3d62 50%);
+}
+
+.fa-linkedin-in::before{
+  background-image: linear-gradient(140deg,#007bb5 30%,#0a3d62 50%);
+}
+span{
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: Raleway;
+  font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+h1 {
+  color:rgb(72, 57, 130);
+  font: 16px/1.5 "Kanit", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size:32px;
+}
+
+h2 {
+  color:rgb(72, 57, 130);
+  font-weight:500;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+}
+
+a {
+  color:#39c;
+  font-weight:300;
+  text-decoration:none;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.6em;
+  display:block;
+}
+
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
+
+img {
+    max-width:100%;
+    vertical-align: middle;
+}
+
+img.icon {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+header {
+  width:250px;
+  float:left;
+  position:fixed;
+}
+
+header ul {
+  list-style:none;
+  height:40px;
+
+  padding:0;
+
+  background: #eee;
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+
+  border-radius:5px;
+  border:1px solid #d2d2d2;
+  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+  width:270px;
+}
+
+header li {
+  width:89px;
+  float:left;
+  border-right:1px solid #d2d2d2;
+  height:40px;
+}
+
+header ul a {
+  line-height:1;
+  font-size:11px;
+  color:#999;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:40px;
+}
+
+
+header ul li + li {
+  width:88px;
+  border-left:1px solid #fff;
+}
+
+header ul li + li + li {
+  border-right:none;
+  width:89px;
+}
+
+header ul a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+section {
+  width:600px;
+  float:right;
+  padding-bottom:50px;
+}
+
+
+hr {
+  border:0;
+  background:#e5e5e5;
+  height:1px;
+  margin:0 0 20px;
+}
+
+footer {
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
+}
+
+#portrait {
+  padding-bottom: 20px;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+
+  header ul {
+    display:none;
+  }
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}
+
+
+/*COLOR CHANGER*/
+/*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
+.loader{
+  filter:hue-rotate(0deg);
+  color: linear-gradient(45deg,#0f8,#08f);
+  animation:hue 5000ms infinite linear;
+}
+
+@keyframes spinify {
+  0% {
+    transform: translate(0px,0px);
+
+  }
+  33% {
+    transform: translate(0px,24px);
+    border-radius:100%;
+    width:10px;
+    height:10px;
+
+  }
+   66% {
+    transform:translate(0px,-16px);
+  }
+
+   88% {
+    transform:translate(0px,4px);
+
+  }
+  100% {
+    transform:translate(0px,0px);
+  }
+}
+@keyframes hue{
+  0%{filter: hue-rotate(0deg);}
+  100%{filter:hue-rotate(360deg);}
+
+}
